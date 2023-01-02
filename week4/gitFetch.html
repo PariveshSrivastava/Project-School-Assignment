@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="text-center display-2" style="margin-top: 6%">Fetch from git</p>
+    <p class="text-center display-6"  style="margin-top: 3%">
+        Click to Create table
+    </p>
+    <center>
+        <button id="addTable" type="button" class="btn btn-outline-dark" style="margin-top: 1%;margin-bottom: 1%;" >
+            Click
+        </button>
+        <div id="table" class = "table"> </div>
+    </center>
+    <p class="text-center display-6"  style="margin-top:1%">
+        Salary greater than 50000
+    </p>
+    <center>
+        <button onclick="greater()" class="btn btn-outline-dark" style="margin-top: 1%;margin-bottom: 1%;" >
+            Click
+        </button>
+        <div id="Info"></div>
+    </center>
+    <p class="text-center display-6"  style="margin-top:1%">
+        Join in dec
+    </p>
+    <center>
+        <button onclick="dec()" class="btn btn-outline-dark" style="margin-top: 1%;margin-bottom: 1%;" >
+            Click
+        </button>
+        <div id="join"></div>
+    </center>
+    <script src = "gitFetch.js"></script>
+</body>
+</html>
